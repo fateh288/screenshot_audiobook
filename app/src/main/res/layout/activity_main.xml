@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/image_chooser_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/choose_screenshot_image"></Button>
+
+        <Button
+            android:id="@+id/button_show_boxes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Show Detected Text Boxes"></Button>
+
+        <Button
+            android:id="@+id/button_get_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/get_text_from_boxes"></Button>
+
+        <Button
+            android:id="@+id/button_text_to_speech"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_to_speech"></Button>
+        <TextView
+            android:id="@+id/text_view_bb_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <ImageView
+            android:id="@+id/image_view_screenshot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </ImageView>
+    </LinearLayout>
+<!--    -->
+<!--    <ScrollView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content">-->
+
+<!--    </ScrollView>-->
+
+<!--    <ScrollView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content">-->
+
+<!--    </ScrollView>-->
+
+</ScrollView>
